@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class TestGetFirstItem
+ */
 class TestGetFirstItem
 {
     public function go()

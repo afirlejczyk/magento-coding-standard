@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Check if the === operator is used for testing the return value of the strpos PHP function
+ * Class Aoe_Sniffs_Strings_StringPositionSniff
  *
- * Class Ecg_Sniffs_Strings_StringPositionSniff
+ * Check if the === operator is used for testing the return value of the strpos PHP function
  */
-class Ecg_Sniffs_Strings_StringPositionSniff implements PHP_CodeSniffer_Sniff
+class Aoe_Sniffs_Strings_StringPositionSniff implements PHP_CodeSniffer_Sniff
 {
     public $functions = array(
         'strpos',
@@ -22,6 +22,10 @@ class Ecg_Sniffs_Strings_StringPositionSniff implements PHP_CodeSniffer_Sniff
         T_IS_NOT_IDENTICAL,
     );
 
+    /**
+     * @param PHP_CodeSniffer_File $phpcsFile
+     * @param $stackPtr
+     */
     public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();

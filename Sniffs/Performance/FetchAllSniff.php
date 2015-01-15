@@ -1,6 +1,9 @@
 <?php
 
-class Ecg_Sniffs_Performance_FetchAllSniff implements PHP_CodeSniffer_Sniff
+/**
+ * Class Aoe_Sniffs_Performance_FetchAllSniff
+ */
+class Aoe_Sniffs_Performance_FetchAllSniff implements PHP_CodeSniffer_Sniff
 {
     public $methods = array(
         'fetchAll',
@@ -11,6 +14,10 @@ class Ecg_Sniffs_Performance_FetchAllSniff implements PHP_CodeSniffer_Sniff
         return array(T_STRING);
     }
 
+    /**
+     * @param PHP_CodeSniffer_File $phpcsFile
+     * @param $stackPtr
+     */
     public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();

@@ -1,6 +1,9 @@
 <?php
 
-class Ecg_Sniffs_Classes_ObjectInstantiationSniff implements PHP_CodeSniffer_Sniff
+/**
+ * Class Aoe_Sniffs_Classes_ObjectInstantiationSniff
+ */
+class Aoe_Sniffs_Classes_ObjectInstantiationSniff implements PHP_CodeSniffer_Sniff
 {
     protected $disallowedClassPrefixes = array(
         'Mage_',
@@ -14,6 +17,10 @@ class Ecg_Sniffs_Classes_ObjectInstantiationSniff implements PHP_CodeSniffer_Sni
         );
     }
 
+    /**
+     * @param PHP_CodeSniffer_File $phpcsFile
+     * @param $stackPtr
+     */
     public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
         $next = $phpcsFile->findNext(T_STRING, $stackPtr + 1);

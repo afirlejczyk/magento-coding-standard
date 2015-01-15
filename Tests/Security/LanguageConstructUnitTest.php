@@ -1,6 +1,9 @@
 <?php
 
-class Ecg_Tests_Security_LanguageConstructUnitTest extends AbstractSniffUnitTest
+/**
+ * Class Aoe_Tests_Security_LanguageConstructUnitTest
+ */
+class Aoe_Tests_Security_LanguageConstructUnitTest extends AbstractSniffUnitTest
 {
     public function getErrorList()
     {

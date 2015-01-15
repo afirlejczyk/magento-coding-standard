@@ -1,6 +1,9 @@
 <?php
 
-class Ecg_Sniffs_Sql_RawQuerySniff implements PHP_CodeSniffer_Sniff
+/**
+ * Class Aoe_Sniffs_Sql_RawQuerySniff
+ */
+class Aoe_Sniffs_Sql_RawQuerySniff implements PHP_CodeSniffer_Sniff
 {
     public $statements = array(
         'SELECT',
@@ -22,6 +25,10 @@ class Ecg_Sniffs_Sql_RawQuerySniff implements PHP_CodeSniffer_Sniff
         return array_merge(PHP_CodeSniffer_Tokens::$stringTokens, [T_HEREDOC, T_NOWDOC]);
     }
 
+    /**
+     * @param PHP_CodeSniffer_File $phpcsFile
+     * @param $stackPtr
+     */
     public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();

@@ -1,6 +1,9 @@
 <?php
 
-class Ecg_Sniffs_Security_IncludeFileSniff implements PHP_CodeSniffer_Sniff
+/**
+ * Class Aoe_Sniffs_Security_IncludeFileSniff
+ */
+class Aoe_Sniffs_Security_IncludeFileSniff implements PHP_CodeSniffer_Sniff
 {
     /**
      * Pattern to match urls
@@ -14,6 +17,10 @@ class Ecg_Sniffs_Security_IncludeFileSniff implements PHP_CodeSniffer_Sniff
         return PHP_CodeSniffer_Tokens::$includeTokens;
     }
 
+    /**
+     * @param PHP_CodeSniffer_File $phpcsFile
+     * @param $stackPtr
+     */
     public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
         $tokens     = $phpcsFile->getTokens();

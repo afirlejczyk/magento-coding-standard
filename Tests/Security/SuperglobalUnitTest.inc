@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class TestSuperglobal
+ */
 class TestSuperglobal
 {
     protected $_server;

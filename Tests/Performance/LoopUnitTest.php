@@ -1,6 +1,9 @@
 <?php
 
-class Ecg_Tests_Performance_LoopUnitTest extends AbstractSniffUnitTest
+/**
+ * Class Aoe_Tests_Performance_LoopUnitTest
+ */
+class Aoe_Tests_Performance_LoopUnitTest extends AbstractSniffUnitTest
 {
     public function getErrorList()
     {

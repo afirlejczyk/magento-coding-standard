@@ -1,6 +1,9 @@
 <?php
 
-class Ecg_Sniffs_Sql_SlowQuerySniff implements PHP_CodeSniffer_Sniff
+/**
+ * Class Aoe_Sniffs_Sql_SlowQuerySniff
+ */
+class Aoe_Sniffs_Sql_SlowQuerySniff implements PHP_CodeSniffer_Sniff
 {
     public $adapterMethods = array(
         'group',
@@ -30,6 +33,10 @@ class Ecg_Sniffs_Sql_SlowQuerySniff implements PHP_CodeSniffer_Sniff
         return array_merge([T_STRING], $this->getStrTokens());
     }
 
+    /**
+     * @param PHP_CodeSniffer_File $phpcsFile
+     * @param $stackPtr
+     */
     public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();

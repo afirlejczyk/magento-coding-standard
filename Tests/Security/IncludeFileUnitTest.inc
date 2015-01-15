@@ -16,6 +16,9 @@ include ('a' . 'b');
 
 require_once 'a' . 'b';
 
+/**
+ * Class TestInclude
+ */
 class TestInclude
 {
     public function go($a)
@@ -26,6 +29,10 @@ class TestInclude
 }
 
 require_once 'test.php';
+
+/**
+ * Class Some_MagentoController
+ */
 class Some_MagentoController extends Mage_Adminhtml_Controller_Action
 {
     public function a() {
@@ -34,6 +41,10 @@ class Some_MagentoController extends Mage_Adminhtml_Controller_Action
 }
 
 require_once 'controller.php';
+
+/**
+ * Class Some_MagentoController2
+ */
 class Some_MagentoController2 extends Some_OtherClass
 {
 }

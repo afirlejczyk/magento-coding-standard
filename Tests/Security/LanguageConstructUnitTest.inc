@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class TestLanguageConstruct
+ */
 class TestLanguageConstruct
 {
     public function go()

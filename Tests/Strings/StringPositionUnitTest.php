@@ -1,6 +1,9 @@
 <?php
 
-class Ecg_Tests_Strings_StringPositionUnitTest extends AbstractSniffUnitTest
+/**
+ * Class Aoe_Tests_Strings_StringPositionUnitTest
+ */
+class Aoe_Tests_Strings_StringPositionUnitTest extends AbstractSniffUnitTest
 {
     public function getErrorList()
     {

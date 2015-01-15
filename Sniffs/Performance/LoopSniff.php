@@ -1,6 +1,9 @@
 <?php
 
-class Ecg_Sniffs_Performance_LoopSniff implements PHP_CodeSniffer_Sniff
+/**
+ * Class Aoe_Sniffs_Performance_LoopSniff
+ */
+class Aoe_Sniffs_Performance_LoopSniff implements PHP_CodeSniffer_Sniff
 {
     protected $countFunctions = array(
         'sizeof',
@@ -49,6 +52,10 @@ class Ecg_Sniffs_Performance_LoopSniff implements PHP_CodeSniffer_Sniff
         return array(T_WHILE, T_FOR, T_FOREACH, T_DO);
     }
 
+    /**
+     * @param PHP_CodeSniffer_File $phpcsFile
+     * @param $stackPtr
+     */
     public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();

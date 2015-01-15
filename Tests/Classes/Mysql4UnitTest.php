@@ -1,6 +1,9 @@
 <?php
 
-class Ecg_Tests_Classes_Mysql4UnitTest extends AbstractSniffUnitTest
+/**
+ * Class Aoe_Tests_Classes_Mysql4UnitTest
+ */
+class Aoe_Tests_Classes_Mysql4UnitTest extends AbstractSniffUnitTest
 {
     public function getErrorList()
     {

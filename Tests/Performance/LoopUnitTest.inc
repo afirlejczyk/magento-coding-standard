@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class TestLoop
+ */
 class TestLoop
 {
     public function go()

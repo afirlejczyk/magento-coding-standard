@@ -1,6 +1,9 @@
 <?php
 
-class Ecg_Tests_Sql_SlowQueryUnitTest extends AbstractSniffUnitTest
+/**
+ * Class Aoe_Tests_Sql_SlowQueryUnitTest
+ */
+class Aoe_Tests_Sql_SlowQueryUnitTest extends AbstractSniffUnitTest
 {
     public function getErrorList()
     {

@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class TestCollectionCount
+ */
 class TestCollectionCount
 {
     public function go()

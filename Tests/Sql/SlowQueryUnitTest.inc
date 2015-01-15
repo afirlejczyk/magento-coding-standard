@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class SlowQueryTest
+ */
 class SlowQueryTest
 {
     protected function _prepareLoadSelect(array $selects)

@@ -1,7 +1,16 @@
 <?php
 
+/**
+ * Class RawQueryTest
+ */
 class RawQueryTest
 {
+    /**
+     * @param $ccode
+     * @param $county
+     * @param $city
+     * @param $tax_rate
+     */
     private function _insertOneRow($ccode, $county, $city, $tax_rate)
     {
         $query = '
@@ -36,6 +45,10 @@ class RawQueryTest
         );
     }
 
+    /**
+     * @param $countyInfo
+     * @param $countyName
+     */
     public function runQuery($countyInfo, $countyName)
     {
         $connectionWrite = Mage::getSingleton('core/resource')->getConnection('core_write');
@@ -56,6 +69,10 @@ class RawQueryTest
                 );');
         }
 
+    /**
+     * @param $period
+     * @return string
+     */
     public function getQuery($period)
     {
         $this->_period = $period;

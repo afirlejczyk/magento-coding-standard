@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Ecg_Sniffs_Strings_RegExSniff
+ * Class Aoe_Sniffs_Strings_RegExSniff
  */
-class Ecg_Sniffs_Strings_RegExSniff implements PHP_CodeSniffer_Sniff
+class Aoe_Sniffs_Strings_RegExSniff implements PHP_CodeSniffer_Sniff
 {
     public $functions = array(
         'preg_replace',
@@ -22,6 +22,10 @@ class Ecg_Sniffs_Strings_RegExSniff implements PHP_CodeSniffer_Sniff
         return array(T_STRING);
     }
 
+    /**
+     * @param PHP_CodeSniffer_File $phpcsFile
+     * @param $stackPtr
+     */
     public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();
