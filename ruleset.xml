@@ -152,7 +152,7 @@
     <!-- Verifies that a @throws tag exists for a function that throws exceptions -->
     <rule ref="Squiz.Commenting.FunctionCommentThrowTag"/>
 
-    <!-- Checks Usage of Increment/Decrenent Operators, i.e. $a -= 1; -->
+    <!-- Checks Usage of Increment/Decrement Operators, i.e. $a -= 1; -->
     <rule ref="Squiz.Operators.IncrementDecrementUsage"/>
     <!-- Checks syntactical Usage of Logical Operators in Conditions -->
     <rule ref="Squiz.Operators.ValidLogicalOperators"/>
@@ -195,9 +195,6 @@
     <!-- Checks for Code that will never be Executed by bad Design -->
     <rule ref="Squiz.PHP.NonExecutableCode"/>
 
-    <!-- #####################################################
-         ## Include some custom coding standard rules       ##
-         ##################################################### -->
-
+    <!-- Include some custom coding standard rules -->
     <rule ref="Aoe.Commenting.ClassComment"/>
 </ruleset>
