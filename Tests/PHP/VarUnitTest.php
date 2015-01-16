@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Tests_PHP_VarUnitTest
+ * Class Ecg_Tests_PHP_VarUnitTest
  */
-class Aoe_Tests_PHP_VarUnitTest extends AbstractSniffUnitTest
+class Ecg_Tests_PHP_VarUnitTest extends AbstractSniffUnitTest
 {
     public function getErrorList()
     {

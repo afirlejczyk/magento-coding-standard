@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_PHP_VarSniff
+ * Class Ecg_Sniffs_PHP_VarSniff
  */
-class Aoe_Sniffs_PHP_VarSniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_PHP_VarSniff implements PHP_CodeSniffer_Sniff
 {
     public function register()
     {

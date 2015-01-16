@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Performance_GetFirstItemSniff
+ * Class Ecg_Sniffs_Performance_GetFirstItemSniff
  */
-class Aoe_Sniffs_Performance_GetFirstItemSniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Performance_GetFirstItemSniff implements PHP_CodeSniffer_Sniff
 {
     public $methods = array(
         'getFirstItem',

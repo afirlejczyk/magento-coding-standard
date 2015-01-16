@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_PHP_GotoSniff
+ * Class Ecg_Sniffs_PHP_GotoSniff
  */
-class Aoe_Sniffs_PHP_GotoSniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_PHP_GotoSniff implements PHP_CodeSniffer_Sniff
 {
     public function register()
     {

@@ -1,6 +1,8 @@
-#AOE Magento Code Sniffer Coding Standard
+#ECG Magento Code Sniffer Coding Standard
 
-AOE Magento Code Sniffer Coding Standard is a set of rules and sniffs for [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) tool.
+This is a Fork of https://github.com/magento-ecg/coding-standard
+
+ECG Magento Code Sniffer Coding Standard is a set of rules and sniffs for [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) tool.
 
 It allows automatically check your code against some of the common Magento and PHP coding issues, like:
 - raw SQL queries;
@@ -13,6 +15,7 @@ It allows automatically check your code against some of the common Magento and P
 
 and many others.
 
+
 #Installation & Usage
 
 Before starting using our coding standard install [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer).
@@ -23,7 +26,7 @@ To do so, add the dependency to your `composer.json` file and run the `php compo
 ```json
 {
   "require": {
-    "aoepeople/coding-standard": "dev-master"
+    "aoepeople/magento-coding-standard": "dev-master"
   }
 }
 ```
@@ -31,10 +34,13 @@ To do so, add the dependency to your `composer.json` file and run the `php compo
 Run CodeSniffer:
 
 ```sh
-phpcs --standard=/path/to/AOE/standard /path/to/code
+phpcs --standard=/path/to/Ecg/standard /path/to/code
 ```
 
+
+
 #Requirements
+
 
 PHP 5.4 and up.
 

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Tests_Strings_StringConcatUnitTest
+ * Class Ecg_Tests_Strings_StringConcatUnitTest
  */
-class Aoe_Tests_Strings_StringConcatUnitTest extends AbstractSniffUnitTest
+class Ecg_Tests_Strings_StringConcatUnitTest extends AbstractSniffUnitTest
 {
     public function getErrorList()
     {

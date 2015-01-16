@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Strings_StringConcatSniff
+ * Class Ecg_Sniffs_Strings_StringConcatSniff
  */
-class Aoe_Sniffs_Strings_StringConcatSniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Strings_StringConcatSniff implements PHP_CodeSniffer_Sniff
 {
     public function register()
     {

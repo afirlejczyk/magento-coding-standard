@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="AOE">
-    <description>AOE Magento Coding Standard</description>
+<ruleset name="Ecg">
+    <description>ECG Coding Standard</description>
 
     <!-- Exclude EcomDev_PHPUnit unit tests -->
     <exclude-pattern>*/Test/*</exclude-pattern>
@@ -71,7 +71,7 @@
     <!-- PHP code MUST contain space after cast tokens -->
     <rule ref="Generic.Formatting.SpaceAfterCast"/>
 
-    <!-- PHP functions MUST NOT be to complex and should be refactored if so -->
+    <!-- PHP functions MUST NOT be too complex and should be refactored if so -->
     <rule ref="Generic.Metrics.CyclomaticComplexity"/>
     <rule ref="Generic.Metrics.NestingLevel"/>
 
@@ -90,7 +90,7 @@
     <rule ref="Generic.PHP.ForbiddenFunctions"/>
     <!-- The PHP constants true, false, and null MUST be in lower case. -->
     <rule ref="Generic.PHP.LowerCaseConstant"/>
-    <!-- PHP keywords MUST be in lower case. I.e. CONST -->
+    <!-- PHP keywords MUST be in lower case. I.e. const -->
     <rule ref="Generic.PHP.LowerCaseKeyword"/>
     <!-- PHP code MUST NOT contain silenced errors (@) -->
     <rule ref="Generic.PHP.NoSilencedErrors"/>
@@ -196,5 +196,5 @@
     <rule ref="Squiz.PHP.NonExecutableCode"/>
 
     <!-- Include some custom coding standard rules -->
-    <rule ref="Aoe.Commenting.ClassComment"/>
+    <rule ref="Ecg.Commenting.ClassComment"/>
 </ruleset>

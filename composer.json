@@ -10,7 +10,7 @@
             "email" : "team-fraport@aoe.com"
         }
     ],
-    "target-dir": "Aoe",
+    "target-dir": "Ecg",
     "require": {
         "php": ">=5.4.0"
     }

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Sql_SlowQuerySniff
+ * Class Ecg_Sniffs_Sql_SlowQuerySniff
  */
-class Aoe_Sniffs_Sql_SlowQuerySniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Sql_SlowQuerySniff implements PHP_CodeSniffer_Sniff
 {
     public $adapterMethods = array(
         'group',

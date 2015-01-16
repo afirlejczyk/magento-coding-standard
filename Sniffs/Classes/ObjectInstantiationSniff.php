@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Classes_ObjectInstantiationSniff
+ * Class Ecg_Sniffs_Classes_ObjectInstantiationSniff
  */
-class Aoe_Sniffs_Classes_ObjectInstantiationSniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Classes_ObjectInstantiationSniff implements PHP_CodeSniffer_Sniff
 {
     protected $disallowedClassPrefixes = array(
         'Mage_',

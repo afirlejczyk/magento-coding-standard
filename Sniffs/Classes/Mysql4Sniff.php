@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Classes_Mysql4Sniff
+ * Class Ecg_Sniffs_Classes_Mysql4Sniff
  */
-class Aoe_Sniffs_Classes_Mysql4Sniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Classes_Mysql4Sniff implements PHP_CodeSniffer_Sniff
 {
     public function register()
     {

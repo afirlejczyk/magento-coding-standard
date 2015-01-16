@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Security_SuperglobalSniff
+ * Class Ecg_Sniffs_Security_SuperglobalSniff
  */
-class Aoe_Sniffs_Security_SuperglobalSniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Security_SuperglobalSniff implements PHP_CodeSniffer_Sniff
 {
     public $superglobals = array(
         '$GLOBALS',

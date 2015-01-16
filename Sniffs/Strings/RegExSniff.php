@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Strings_RegExSniff
+ * Class Ecg_Sniffs_Strings_RegExSniff
  */
-class Aoe_Sniffs_Strings_RegExSniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Strings_RegExSniff implements PHP_CodeSniffer_Sniff
 {
     public $functions = array(
         'preg_replace',

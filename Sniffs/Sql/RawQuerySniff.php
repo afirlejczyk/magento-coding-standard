@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Sql_RawQuerySniff
+ * Class Ecg_Sniffs_Sql_RawQuerySniff
  */
-class Aoe_Sniffs_Sql_RawQuerySniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Sql_RawQuerySniff implements PHP_CodeSniffer_Sniff
 {
     public $statements = array(
         'SELECT',

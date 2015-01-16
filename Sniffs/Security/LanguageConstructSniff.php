@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Security_LanguageConstructSniff
+ * Class Ecg_Sniffs_Security_LanguageConstructSniff
  */
-class Aoe_Sniffs_Security_LanguageConstructSniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Security_LanguageConstructSniff implements PHP_CodeSniffer_Sniff
 {
     public function register()
     {

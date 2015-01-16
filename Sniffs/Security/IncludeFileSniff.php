@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Security_IncludeFileSniff
+ * Class Ecg_Sniffs_Security_IncludeFileSniff
  */
-class Aoe_Sniffs_Security_IncludeFileSniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Security_IncludeFileSniff implements PHP_CodeSniffer_Sniff
 {
     /**
      * Pattern to match urls

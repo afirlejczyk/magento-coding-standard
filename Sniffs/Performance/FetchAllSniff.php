@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Performance_FetchAllSniff
+ * Class Ecg_Sniffs_Performance_FetchAllSniff
  */
-class Aoe_Sniffs_Performance_FetchAllSniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Performance_FetchAllSniff implements PHP_CodeSniffer_Sniff
 {
     public $methods = array(
         'fetchAll',

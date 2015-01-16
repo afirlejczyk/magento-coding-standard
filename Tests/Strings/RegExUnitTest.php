@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Tests_Strings_RegExUnitTest
+ * Class Ecg_Tests_Strings_RegExUnitTest
  */
-class Aoe_Tests_Strings_RegExUnitTest extends AbstractSniffUnitTest
+class Ecg_Tests_Strings_RegExUnitTest extends AbstractSniffUnitTest
 {
     public function getErrorList()
     {

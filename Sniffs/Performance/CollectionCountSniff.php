@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Class Aoe_Sniffs_Performance_CollectionCountSniff
+ * Class Ecg_Sniffs_Performance_CollectionCountSniff
  */
-class Aoe_Sniffs_Performance_CollectionCountSniff implements PHP_CodeSniffer_Sniff
+class Ecg_Sniffs_Performance_CollectionCountSniff implements PHP_CodeSniffer_Sniff
 {
     public $methods = array(
         'count',
