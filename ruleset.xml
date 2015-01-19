@@ -139,10 +139,9 @@
     </rule>
     <!-- Check Function Comments for correct Format -->
     <rule ref="PEAR.Commenting.FunctionComment"/>
-    <!-- File Comments are not widely used in the Magento Community, so this is just a warning -->
-    <rule ref="PEAR.Commenting.FileComment">
-        <severity>0</severity>
-    </rule>
+    <!-- File Comments are not widely used in the Magento Community, but we want a Class Comment Block -->
+    <exclude name="PEAR.Commenting.FileComment"/>
+    <rule ref="Ecg.Commenting.ClassComment"/>
 
     <!-- PHP code MUST NOT contain functions outside of classes -->
     <rule ref="Squiz.Functions.GlobalFunction"/>
@@ -194,7 +193,4 @@
     <rule ref="Squiz.PHP.GlobalKeyword"/>
     <!-- Checks for Code that will never be Executed by bad Design -->
     <rule ref="Squiz.PHP.NonExecutableCode"/>
-
-    <!-- Include some custom coding standard rules -->
-    <rule ref="Ecg.Commenting.ClassComment"/>
 </ruleset>
