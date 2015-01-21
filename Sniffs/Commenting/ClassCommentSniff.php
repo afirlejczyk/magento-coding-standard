@@ -4,7 +4,7 @@ if(!defined('T_DOC_COMMENT_CLOSE_TAG')) {
     define('T_DOC_COMMENT_CLOSE_TAG', 1204);
 }
 
-class Ecg_Sniffs_Commenting_ClassCommentSniff extends Pear_Sniffs_Commenting_ClassCommentSniff
+class Ecg_Sniffs_Commenting_ClassCommentSniff extends PEAR_Sniffs_Commenting_ClassCommentSniff
 {
     /**
      * @param PHP_CodeSniffer_File $phpcsFile
