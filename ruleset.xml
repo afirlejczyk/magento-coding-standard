@@ -104,8 +104,6 @@
 
     <!-- Functions variables MUST NOT be passed by references -->
     <rule ref="Generic.Functions.CallTimePassByReference"/>
-    <!-- Code MUST use a space after function arguments -->
-    <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
     <!-- Braces after function MUST be in newline -->
     <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman"/>
 
@@ -114,7 +112,6 @@
 
     <!-- PHP code MUST contain properly declared classes and functions -->
     <rule ref="PEAR.Classes.ClassDeclaration"/>
-    <rule ref="PEAR.Functions.FunctionDeclaration"/>
 
     <!-- PHP classes/interfaces MUST use start with a capital letter and must use the _ as separator -->
     <rule ref="PEAR.NamingConventions.ValidClassName"/>
@@ -123,12 +120,8 @@
     <rule ref="PEAR.Commenting.InlineComment"/>
     <!-- Correct Formatting of Control Signatures -->
     <rule ref="PEAR.ControlStructures.ControlSignature"/>
-    <!-- Checks for Formatting of multiple Conditions formatted in several lines -->
-    <rule ref="PEAR.ControlStructures.MultiLineCondition"/>
     <!-- Correct Formatting of Function Calls -->
     <rule ref="PEAR.Functions.FunctionCallSignature"/>
-    <!-- Correct Formatting of Function Declaration -->
-    <rule ref="PEAR.Functions.FunctionDeclaration"/>
     <!-- Checks Function Parameters Declaration for Default Values -->
     <rule ref="PEAR.Functions.ValidDefaultValue"/>
     <!-- Checks Indentation of Object Method Chaining -->
