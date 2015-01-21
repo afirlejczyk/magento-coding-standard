@@ -1,6 +1,6 @@
 <?php
 
-class Ecg_Sniffs_Commenting_ClassCommentSniff extends Pear_Sniffs_Commenting_ClassCommentSniff
+class Ecg_Sniffs_Commenting_ClassCommentSniff extends PEAR_Sniffs_Commenting_ClassCommentSniff
 {
     /**
      * @param PHP_CodeSniffer_File $phpcsFile
