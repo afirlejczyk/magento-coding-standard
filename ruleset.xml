@@ -11,6 +11,9 @@
     <exclude-pattern>*/sql/*/install-</exclude-pattern>
     <exclude-pattern>*/sql/*/upgrade-</exclude-pattern>
 
+    <!-- exclude sub vendor folder -->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+
     <!-- The closing ?> tag MUST be omitted from files containing only PHP. -->
     <rule ref="Zend.Files.ClosingTag">
         <exclude-pattern>*\.(?!phtml$)</exclude-pattern>
