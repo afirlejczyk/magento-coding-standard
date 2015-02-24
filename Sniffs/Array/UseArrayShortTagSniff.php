@@ -7,7 +7,7 @@ class Ecg_Sniffs_Array_UseArrayShortTagSniff implements PHP_CodeSniffer_Sniff
      */
     public function register()
     {
-        return [T_ARRAY];
+        return array(T_ARRAY);
     }
 
     /**
